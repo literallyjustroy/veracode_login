@@ -1,0 +1,27 @@
+{
+  "name": "veracode_login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.12",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "start": "tsc && node dist/auth.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "log4js": "^6.3.0",
+    "node-fetch": "^3.2.10",
+    "node-html-parser": "^4.1.4",
+    "open": "^8.4.0",
+    "puppeteer": "^17.1.2",
+    "source-map-support": "^0.5.19"
+  }
+}
