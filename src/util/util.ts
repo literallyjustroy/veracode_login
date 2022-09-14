@@ -33,3 +33,8 @@ export async function getBrowser(isHeadlessWOnly: boolean): Promise<Browser> {
         return await puppeteer.launch({ headless: isHeadlessWOnly });
     }
 }
+
+export interface Output {
+    cookies: puppeteer.Protocol.Network.Cookie[],
+    csrfToken: string
+}

@@ -2,6 +2,7 @@ dist/
 node_modules/
 logs/
 cookies.json
+output.json
 log.log
 error_screenshot.png
 .env
